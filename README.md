@@ -6,26 +6,26 @@ Build an interactive page of glowing, twinkling stars.
 
 ## Success Criteria
 
-- [ ] Page displays a night sky background.
+- [x] Page displays a night sky background.
 - [ ] Multiple white stars are visible.
 - [ ] Stars glow and twinkle.
 - [ ] Site deployed and accessible to the public.
 
 ## MVP
 
-- [ ] Night sky background
+- [x] Night sky background
 - [ ] White glowing stars
-- [ ] Twinkling animation
+- [x] Twinkling animation
 
 ## Tasks
 
 - [x] Set the background color
-- [x] Create a Star component
-- [ ] Create multiple Star objects
-- [ ] Set the stars' color to white
-- [ ] Add a faint white `box-shadow`
-- [ ] Create a `@keyframes` twinkle animation
-- [ ] Apply the animation to the stars
+- [x] Create a Star
+- [x] Create multiple Stars
+- [x] Set the Stars' color to white
+- [ ] Add a faint glow to the Stars
+- [x] Create a `@keyframes` twinkle animation
+- [x] Apply the animation to the Stars
 
 ## Later
 
