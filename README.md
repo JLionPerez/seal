@@ -31,8 +31,8 @@ Build an interactive page of glowing, twinkling stars.
 
 - [ ] Write Playwright tests
 - [ ] Polish the animation
+- [ ] Stylize Stars
 - [ ] Add sky details, such as the Milky Way
 
 ## Current Task
-
-Create the Star element.
+Add glow to the Stars.
