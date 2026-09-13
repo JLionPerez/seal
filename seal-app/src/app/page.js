@@ -3,19 +3,19 @@ function seedRandomStars(seed) {
   return val - Math.floor(val);
 }
 
-function isPositionValid(star, currentStars) {
+// function isPositionValid(star, currentStars) {
 
-}
+// }
 
-const stars = Array.from({ length: 100}, (_, i) => ({
+const stars = Array.from({ length: 623}, (_, i) => ({
   top: seedRandomStars(i * 3) * 100,
-  left: seedRandomStars(i * 5 + 1) * 100,
-  size: seedRandomStars(i + 10) * 9 + 2
+  left: seedRandomStars(i * 7) * 100,
+  size: seedRandomStars(i + 2) * 7 + 3 
 }));
 
 export default function Home() {
   return (
-    <main>
+    <main className="h-dvh">
       <div className="glow relative min-h-screen">
         {stars.map((star, i) => (
           <div

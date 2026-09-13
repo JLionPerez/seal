@@ -37,6 +37,8 @@ Build an interactive page of glowing, twinkling stars.
 - [x] Stylize Stars
 - [ ] Add sky details, such as the Milky Way
 - [ ] Make the Stars not touch each other
+- [ ] Add an actual Seal on here
+- [ ] Background music?
 
 ## Current Task
 Randomize glow times between Stars at start of page.
