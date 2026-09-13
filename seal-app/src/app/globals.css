@@ -36,22 +36,22 @@ body {
 .star {
   background-color: white;
   position: absolute;
-  animation:
-    twinkle 700ms alternate infinite,
-    fadeFromTransparent 1000ms;
-  aspect-ratio: 1.07;
-  clip-path: polygon(
-    50% 0%,
-    56% 44%,
-    78% 50%,
-    56% 56%,
-    50% 100%,
-    44% 56%,
-    22% 50%,
-    44% 44%
-  );
+  animation: twinkle 2000ms alternate infinite;
+  border-radius: 50%;
+  transition:
+    transform 1000ms ease-out,
+    filter 1000ms ease-out,
+    opacity 1000ms ease-out
+}
+
+.star:hover {
+  animation: none;
+  opacity: 1;
+  filter: drop-shadow(0 0 10px white);
+  transform: scale(1.5)
 }
 
 .glow {
-  filter: drop-shadow(0 0 21px rgb(255, 255, 255));
+  filter: drop-shadow(0 0 5px rgb(255, 255, 255));
+  animation: fadeFromTransparent 2000ms;
 }
