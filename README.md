@@ -26,7 +26,7 @@ Build an interactive page of glowing, twinkling stars.
 - [x] Add a faint glow to the Stars
 - [x] Create a `@keyframes` twinkle animation
 - [x] Apply the animation to the Stars
-- [ ] Randomize glow times between Stars
+- [x] Randomize glow times between Stars
 - [x] Have different sized Stars
 - [x] Make Stars hoverable, Stars stay glowing on hover
 
@@ -41,4 +41,4 @@ Build an interactive page of glowing, twinkling stars.
 - [ ] Background music?
 
 ## Current Task
-Randomize glow times between Stars at start of page.
+Deploy site.

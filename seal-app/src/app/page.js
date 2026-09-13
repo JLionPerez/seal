@@ -10,7 +10,8 @@ function seedRandomStars(seed) {
 const stars = Array.from({ length: 623}, (_, i) => ({
   top: seedRandomStars(i * 3) * 100,
   left: seedRandomStars(i * 7) * 100,
-  size: seedRandomStars(i + 2) * 7 + 3 
+  size: seedRandomStars(i + 2) * 7 + 3,
+  delay: seedRandomStars(i + 10) * -2000
 }));
 
 export default function Home() {
@@ -25,7 +26,8 @@ export default function Home() {
               top: `${star.top}%`,
               left: `${star.left}%`,
               width: `${star.size}px`,
-              height: `${star.size}px`
+              height: `${star.size}px`,
+              animationDelay: `${star.delay}ms`
             }}
           />
         ))}
