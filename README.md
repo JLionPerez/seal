@@ -1,44 +1,43 @@
-# Project Plan
+# Stars/Seal
 
-## Goal
+## Overview
+An interactive night sky scene with glowing, twinkling stars built with Next.js.
 
-Build an interactive page of glowing, twinkling stars.
+## Demo
+https://stars-orpin-two.vercel.app/
 
-## Success Criteria
+## Features
+- Animated twinkling stars
+- Hover glow effect that brightens and enlarges selected stars
+- Randomized star placement and varied star sizes
 
-- [x] Page displays a night sky background.
-- [X] Multiple white stars are visible.
-- [X] Stars glow and twinkle.
-- [X] Site deployed and accessible to the public.
+## Tech Stack
+- Next.js
+- React
+- Tailwind CSS
 
-## MVP
+## How to Run Locally
+1. Clone the repository:   
+```git clone https://github.com/JLionPerez/seal.git```
 
-- [x] Night sky background
-- [X] White glowing stars
-- [x] Twinkling animation
+2. Navigate into the project folder:   
+```cd seal/seal-app```
 
-## Tasks
+3. Install dependencies:   
+```npm install```
 
-- [x] Set the background color
-- [x] Create a Star
-- [x] Create multiple Stars
-- [x] Set the Stars' color to white
-- [x] Add a faint glow to the Stars
-- [x] Create a `@keyframes` twinkle animation
-- [x] Apply the animation to the Stars
-- [x] Randomize glow times between Stars
-- [x] Have different sized Stars
-- [x] Make Stars hoverable, Stars stay glowing on hover
+4. Run the development server:   
+```npm run dev```
 
-## Later
+5. Click on the localhost link or type ```http://localhost:3000``` into your browser.
 
+## MVP Status
+This project is the current MVP version and is deployed through Vercel.
+
+## Next Steps
 - [ ] Write Playwright tests
-- [ ] Polish the animation
-- [x] Stylize Stars
 - [ ] Add sky details, such as the Milky Way
 - [ ] Make the Stars not touch each other
 - [ ] Add an actual Seal on here
+- [ ] Make site mobile friendly
 - [ ] Background music?
-
-## Current Task
-MVP met, update tasks for next VP.
