@@ -1,22 +1,20 @@
 # Stars/Seal
 
-## Overview
+Live Demo: https://stars-orpin-two.vercel.app/
+
 An interactive night sky scene with glowing, twinkling stars built with Next.js.
 
-## Demo
-https://stars-orpin-two.vercel.app/
-
-## Features
+## :pencil: Features
 - Animated twinkling stars
 - Hover glow effect that brightens and enlarges selected stars
 - Randomized star placement and varied star sizes
 
-## Tech Stack
+## :computer: Tech Stack
 - Next.js
 - React
 - Tailwind CSS
 
-## How to Run Locally
+## :gear: How to Run Locally
 1. Clone the repository:   
 ```git clone https://github.com/JLionPerez/seal.git```
 
@@ -31,10 +29,10 @@ https://stars-orpin-two.vercel.app/
 
 5. Click on the localhost link or type ```http://localhost:3000``` into your browser.
 
-## MVP Status
+## :goal_net: MVP Status
 This project is the current MVP version and is deployed through Vercel.
 
-## Next Steps
+## :rocket: Next Steps
 - [ ] Write Playwright tests
 - [ ] Add sky details, such as the Milky Way
 - [ ] Make the Stars not touch each other
