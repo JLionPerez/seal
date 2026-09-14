@@ -9,7 +9,7 @@ Build an interactive page of glowing, twinkling stars.
 - [x] Page displays a night sky background.
 - [X] Multiple white stars are visible.
 - [X] Stars glow and twinkle.
-- [ ] Site deployed and accessible to the public.
+- [X] Site deployed and accessible to the public.
 
 ## MVP
 
@@ -41,4 +41,4 @@ Build an interactive page of glowing, twinkling stars.
 - [ ] Background music?
 
 ## Current Task
-Deploy site.
+MVP met, update tasks for next VP.
