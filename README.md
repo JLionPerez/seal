@@ -1,6 +1,6 @@
 # Stars/Seal
 
-Live Demo: https://stars-orpin-two.vercel.app/
+Live Demo: https://seal-smoky-seven.vercel.app/
 
 An interactive night sky scene with glowing, twinkling stars built with Next.js.
 
